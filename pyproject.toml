@@ -1,6 +1,6 @@
 [project]
 name = "fincli"
-version = "0.1.1"
+version = "0.1.2"
 description = "A free finance cli app that handles day to day finance tasks and operations"
 readme = "README.md"
 authors = [
