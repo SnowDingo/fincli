@@ -1,11 +1,12 @@
 [project]
 name = "fincli"
 version = "0.1.1"
-description = "Add your description here"
+description = "A free finance cli app that handles day to day finance tasks and operations"
 readme = "README.md"
 authors = [
     { name = "snowdingo", email = "snowdingo.tech@gmail.com" }
 ]
+keywords = ["finance","cli","utility"]
 requires-python = ">=3.13"
 dependencies = [
     "typer>=0.27.1",
@@ -19,3 +20,8 @@ fincli = "fincli.main:app"
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
+
+[project.urls]
+Homepage = "https://github.com/snowdingo/fincli"
+Repository="https://github.com/snowdingo/fincli.git"
+"Issue Tracker" = "https://github.com/snowdingo/fincli/issues"
