@@ -1,0 +1,19 @@
+[project]
+name = "fincli"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "snowdingo", email = "snowdingo.tech@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "typer>=0.27.1",
+]
+
+[project.scripts]
+fincli = "fincli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
