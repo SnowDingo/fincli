@@ -9,10 +9,12 @@ authors = [
 requires-python = ">=3.13"
 dependencies = [
     "typer>=0.27.1",
+    "pytz>=2026.3.post1",
+    "requests>=2.34.2",
 ]
 
 [project.scripts]
-fincli = "fincli:main"
+fincli = "fincli.main:app"
 
 [build-system]
 requires = ["hatchling"]
