@@ -4,6 +4,23 @@
 A simple free CLI app that helps with finance.
 
 
+## Installation
+You can install this project by running:
+```bash
+pip install fincli
+```
+
+Then, you can run:
+```bash
+fincli home
+```
+to test the installation.
+
+For a detailed instruction on how to use this command please run:
+```bash
+fincli --help
+```
+
 ## Tech Stack
 
 * Uses Python Request for API requests
